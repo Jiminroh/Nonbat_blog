@@ -2,15 +2,15 @@ import { siteConfig } from './lib/site-config'
 
 export default siteConfig({
   // the site's root Notion page (required)
-  rootNotionPageId: 'cb67caf3e8064e83a8becb06300ec74f',
+  rootNotionPageId: '9c4c004125f4491d9aa63440c7c2cfb2',
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: 'JIMIN',
-  domain: 'jimin.org',
+  name: 'Jimin',
+  domain: 'nonbat.org',
   author: 'JIMIN',
 
   // open graph metadata (optional)
@@ -18,7 +18,7 @@ export default siteConfig({
 
   // social usernames (optional)
   // twitter: 'transitive_bs',
-  github: 'Rogan-J',
+  github: '',
   linkedin: '',
   // newsletter: '#', // optional newsletter URL
   // youtube: '#', // optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX`
